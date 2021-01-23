@@ -1,7 +1,7 @@
 create database python_mysql;
 show create table python_mysql.user;
 
-CREATE TABLE `user` (
+CREATE TABLE python_mysql.user (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(10) DEFAULT '',
   `sex` varchar(10) DEFAULT '',
